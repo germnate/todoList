@@ -15,8 +15,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-nate:test123@cluster0-2opt7.mongodb.net/todolistDB?retryWrites=true&w=2/todolistDB", {
-// mongoose.connect('mongodb://localhost:27017/myapp', {
+mongoose.connect("mongodb+srv://admin-****:*****@cluster0-2opt7.mongodb.net/todolistDB?retryWrites=true&w=2/todolistDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
